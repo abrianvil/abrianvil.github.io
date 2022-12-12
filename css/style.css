@@ -20,7 +20,9 @@
 
 	body
 	{
-		background: #183026 url('../images/bg.jpg') no-repeat;
+		/* background: #183026 url('../images/bg.jpg') no-repeat; */
+		background: #4c4757 url('../images2/background.webp') no-repeat;
+
 		background-size: cover;
 		background-position: center 0;
 		background-attachment: fixed;
@@ -185,6 +187,22 @@
 				display: block;
 				width: 100%;
 			}
+
+			#image1{
+				width: 580px;
+				object-fit: contain;
+			}
+
+			#image2{
+				width: 580px;
+				object-fit: contain;
+			}
+
+			#image3{
+				width: 580px;
+				object-fit: contain;
+			}
+
 
 			.image.featured
 			{
@@ -455,7 +473,7 @@
 			position: relative;
 			display: inline-block;
 			border: 0;
-			background: #35b88f;
+			background: #492595;
 			color: #fff;
 			text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 			cursor: pointer;
@@ -474,7 +492,7 @@
 
 			.button:hover
 			{
-				background: #45c89f;
+				background: #413067;
 			}
 
 			.button.style2
@@ -559,7 +577,7 @@
 					top: 0;
 					width: 50%;
 					height: 100%;
-					background: #152E33;
+					background: #413067;
 					overflow: hidden;
 				}
 
@@ -1185,7 +1203,9 @@
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 		text-align: center;
-		background: #35b88f url('images/banner.svg') bottom center no-repeat;
+		/* background: #35b88f url('images/banner.svg') bottom center no-repeat; */
+		background: #492595 url('images/banner.svg') bottom center no-repeat;
+		backdrop-filter: blur(1px);
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
@@ -1193,7 +1213,8 @@
 
 		#banner .button
 		{
-			color: #35b882;
+			/* color: #35b882; */
+			color: #492595;
 			text-shadow: 0 0 0.5px rgba(53,184,130,0.25);
 		}
 
@@ -1263,7 +1284,7 @@
 
 			#footer a:hover
 			{
-				color: #35b88f;
+				color: #492595;
 				text-shadow: 0 0 0.5px rgba(69,200,159,0.25);
 				border-bottom-color: rgba(53,184,143,0.5);
 			}
