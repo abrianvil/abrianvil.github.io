@@ -1254,7 +1254,6 @@
 
 			.headshot img{
 				border-radius: 100%;
-				object-fit: contain;
 				width: 200px;
 				height: 200px;
 			}
